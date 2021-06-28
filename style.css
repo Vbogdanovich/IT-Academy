@@ -1,30 +1,22 @@
-.text {
-    height:500px;
-    width:500px;
-    font-family: 'Times New Roman', Times, serif;
-    /* background-color:gray; */
-    padding: 200px;
-    font-size: 40px;
-    position: absolute;
-    transform: translate(9%, 9%);
-    text-align: center;
+*{
+    margin: 0;
 }
-.ramka_boka { 
-    height:1000px;
-    width:1000px;
-    position: relative;
-   
-    background-image: url(media/L.png),url(media/P.png),url(media/N.png),url(media/V.png);
-    background-position: left, right, bottom, top;
-    background-repeat: repeat-y, repeat-y, repeat-x, repeat-x;
-    
-}
-.ramka_ugl {
-    height:1000px;
-    width:1000px;
-    position:relative;
-    background-image: url(media/LVU.png),url(media/PVU.png),url(media/LNU.png),url(media/PNU.png);
-    background-position: top left, top right, bottom left, bottom right;
-    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+div {
+    background-image: 
+    url(media/LVU.png),
+    url(media/PVU.png),
+    url(media/LNU.png),
+    url(media/PNU.png),
+    url(media/L.png),
+    url(media/P.png),
+    url(media/N.png),
+    url(media/V.png);
+    background-position: top left, top right, bottom left, bottom right, left center, right center, bottom center, top center;
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, repeat-y, repeat-y, repeat-x, repeat-x;
+    padding: 40px;
+    text-align: justify;
+/* width: 1000px;
+height: 1000px; */
+padding: 300px;
   
-}
+} 
