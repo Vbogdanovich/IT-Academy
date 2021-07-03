@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .p, .h {
+      list-style: none;
+      font-size: 15px;
+      color: red;
+    }
+    a, .ul li { 
+      display: inline;
+      border-right: 3px solid red;
+      }
+    ul li:last-of-type { border-right: none;}
+    a:last-of-type { border-right: none;}
+    /* .p a:after { content: '|';} */
+    li::after { content: url(strip.jpg); position: absolute; color: red; font-size: 30px; top: 8px;}
+    </style>
+    </head>
+    <body>
+      <div class="ul">
+        <ul>
+          <li><a href="">первая ссылка</a></li>
+          <li><a href="">вторая ссылка</a></li>
+          <li><a href="">третья ссылка</a></li>
+          <li><a href="">четвёртая ссылка</a></li>
+          <li><a href="">пятая ссылка</a></li>
+        </ul>
+    <div class="p"><p><a href="">первая ссылка</a> <a href="">вторая ссылка</a> <a href="">третья ссылка</a> <a href="">четвёртая ссылка</a> <a href="">пятая ссылка</a></p>
+    <div class="h"> <a href="">первая ссылка</a> <a href="">вторая ссылка</a> <a href="">третья ссылка</a> <a href="">четвёртая ссылка</a> <a href="">пятая ссылка</a></div>
+    </body>
+</html>
