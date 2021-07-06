@@ -1,10 +1,31 @@
-.a {
-    color: red;
-    font-family: 'Dancing Script', cursive;
-    font-size: 50px;
+/* Maket_table */
+h1,h2,h3 {
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+   }
+.foto {
+    width: 300px;
+    height: 200px;
+    float: left;
+    /* clear: both; */
+    padding: 0 20px 20px 20px;
 }
-.b {
-    color: blue;
-    font-family: 'Indie Flower', cursive;
-    font-size: 50px;
+.header, .footer{
+    font-size: 12px;
+    height: 50px;
+    background: #ADD8E6;
+    color: #181EFC;
+    text-transform: uppercase;
+    text-align: center;
+   }
+.menu {
+    color: #3533D8;
+    float: left;
+    width: 150px;
+    background-color: yellow;
+}
+p {
+     text-align: justify;
+     background: url(image.png) repeat-y top right, white;
 }
