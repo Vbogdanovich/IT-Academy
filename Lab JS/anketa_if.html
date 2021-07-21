@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Анкета</title>
+    <script>
+            let surname=prompt('Ваша Фамилия');
+            let name=prompt('Ваше Имя');
+            let middlename=prompt('Ваше Отчество');
+            let age = parseInt(prompt('Ваш возраст?'));
+            let gender = (confirm('Ваш пол мужской?')) ? "мужской" : "женский";
+            let pension = ((gender === "мужской" && age >= 60) || (gender === "женский" && age >= 55)) ? "да" : "нет";
+            if(gender) {
+            gender = ('мужской');
+            } else {
+            gender = ('женский');
+            } 
+            if (age >=60) {
+            pension = 'да';
+            } else {
+            pension = 'нет';
+            }
+            alert('Ваше ФИО:' + ' ' + surname + ' ' + name + ' ' + middlename + '\nВаш возраст в годах:' + ' ' + age + '\nВаш возраст в днях:' + ' ' + age * 365 + '\nчерез 5 лет Вам будет:' + ' ' + ( age + 5 ) + '\nВаш пол:' + ' ' + gender + '\nВы на пенсии:' + ' ' + pension);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
+
